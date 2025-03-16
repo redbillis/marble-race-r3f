@@ -3,7 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { RigidBody, useRapier } from "@react-three/rapier";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
-import useGame from "../stores/useGame";
+import useGame from "../stores/useGame.jsx";
 
 export default function Player() {
   const body = useRef();
